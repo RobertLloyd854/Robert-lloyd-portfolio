@@ -11,25 +11,21 @@ It's always helpful to keep track of your web URL.  Consider putting that somewh
 This is my public portfolio for Telling Stories with Data at CMU!  Here's where all my cool work will go.  You should probably hire me. 
 
 # About me
-Hi!  I really like data.  And I like visualizations.  So I guess you can say that I like data visualizations!
+Hi! My name is Robert Lloyd and I am a second year MSSPM student at Carnegie Mellon's Heinz College. I currently work part-time as a Research Analyst for a small consulting firm doing work in workforce development and energy transition.
 
 # What I hope to learn
-All the things - obviously. Maybe I want to make a list of all the things.  If so, I can do so in Markdown like this: 
+There are 3 key thinkgs I am interested in learning: 
 
-1. List item #1
-2. List item #2
-3. List item #3
+1. How to create a chart that is accessible to different audiences (how to present the same info in different ways) 
+2. How to best use color in graphs, charts, and other data visualizations
+3. How to interpret more complex data visualizations
 
-or...
+I believe that these three key learning objectives will make me a far more effective full-time research analyst after I graduate, provide me insight into what it takes to clearly describe complex data
 
-- List item #1
-- List item #2
-- List item #3
 
 # Portfolio
 
-# Examples
-You can keep this section for stuff from in-class demos or your other work, or remove it. 
+ 
 
 ## Assignment: [Visualizing overnment Debt](visualizing-government-debt)
 For this assignment, make sure you set up and link to a new page.  This page is linking to a new Markdown document called `visualizing-government-debt.md`.  For links to Markdown files in your repository, you can just include the name of the page without the `.md` extension. 
