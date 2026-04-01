@@ -8,7 +8,7 @@ _For each step below, you should document your progress as you move forward.  In
 _You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
 
 ## Step one: the visualization
-Here is the chart I chose for this critique with the article it's connected too linked below below
+Here is the chart I chose for this critique with its corresponding article also linked below 
 
 <img width="634" height="636" alt="Screenshot 2026-04-01 at 10 26 02 AM" src="https://github.com/user-attachments/assets/ae28bd6b-ec5f-42c4-b2e1-e49bf8b08d6a" />
 
