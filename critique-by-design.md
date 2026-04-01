@@ -8,12 +8,14 @@ _For each step below, you should document your progress as you move forward.  In
 _You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
 
 ## Step one: the visualization
-
+Here is the chart I chose for this critique with the article it's connected too linked below below
 
 <img width="634" height="636" alt="Screenshot 2026-04-01 at 10 26 02 AM" src="https://github.com/user-attachments/assets/ae28bd6b-ec5f-42c4-b2e1-e49bf8b08d6a" />
+“How Cost Effective Is Your High Protein Diet.” The Bodybuilding Dietitians, https://www.thebodybuildingdietitians.com/blog/how-cost-effective-is-your-high-protein-diet
 
+https://lifehacker.com/the-cheapest-ways-to-get-your-protein-right-now
+I chose this visualization because the topic interests me and I found the article very informative. Over the last few years I have made the concious decision to eat more protein, but quickly found that it would be a relatively expensive endeavor. Therefore, I am interested in what everyday food products are the most cost-effective way to get my daily protein intake. Additionally, I found the chart a bit cluttered and so I thought there were changes that could be made to improve its readability. 
 
-_Include link to the original data visualization (or screenshot - make sure to correctly cite your sources, etc.).  Include paragraph or two on why you selected this particular data visualization.  For obvious reasons, the data visualization you select should come from a publicly accessible source._
 
 ## Step two: the critique
 _Don't forget to complete the Google Form found on the assignment page.  You can summarize your thoughts here._
