@@ -35,7 +35,7 @@ I made my first redesign on paper and went through several iterations based on m
 <img width="733" height="487" alt="Screenshot 2026-04-01 at 10 44 05 AM" src="https://github.com/user-attachments/assets/c3dd21d6-51b9-4455-a2e7-dad096ef92e0" />
 
 ## Step four: Test the solution
-For testing my solution 
+In class I tested my graph on a group of 3 other students and asked the following questions. 
 - Can you tell me what you think this is?
 
 - Can you describe to me what this is telling you?
@@ -47,24 +47,23 @@ For testing my solution
 - Is there anything you would change or do differently?
 
 Results: 
+The initial feedback was positive. At a high level, my classmates understood what the graph was meant to convey and even commented on the most cost-effective foods—many were surprised to see chicken, skim milk, and peanuts at the top. Most of the constructive feedback came after I asked, “Is there anything you find surprising or confusing?” The most common issue people raised was the color scheme. Without a clear key, it was difficult to understand what the colors represented, and the meaning wasn’t immediately obvious without additional context. One student also pointed out that the transparency of the red (least cost-effective) bars actually drew her attention to those items, which had the opposite effect of what I intended.
+One student recommended that I color the most cost-effective products green and then grey out the other ones in order to effectively call attention to the desired data points. 
+Another student recommend that I do a golor gradient where the more cost-effective foods are darker and the less cost-effective foods are lighter. 
+When asked, Is there anything you would change or do differently? One student said that she would include a horizontal line that represents the average, so that someone reading the chart can very quickly discern whether or not a specific product is above or below the average cost per 30g of protein in the dataset. 
+Similarly, a different student said that it would be very valuable to include callouts outside the bars of each food's specific cost, so that people aren't guessing based on the end of the bar. This way people are more likely to take a figure, that can be easily referenced.  
 
-_Don't identify or share personally identifiable information (PII) about the people you spoke to._
-
-
-| Question | Interview 1 | Interview 2 |
-|----------|-------------|-------------|
-|          |             |             |
-|          |             |             |
-|          |             |             |
-
-Synthesis: 
-
-_What patterns in the feedback emerge?  What did you learn from the feedback?  Based on this feedback, come up with what design changes you think might make the most sense in your final redesign._
 
 ## Step five: build the solution
 
-_Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
+Design changes implemented: After consulting with my class mates I implemented their recommendations in Tableau. The first decision I made was to fix the colors. I decided to use the gradient, single color, approach to highlight the most cost-effective foods. I used a reversed continuous color gradient so the most cost-effective foods were highlighted with a dark saturated color and the more expensive ones were "faded out" (represented using a lighter shade). 
+Next I added dollar amounts outside each bar and added dollar signs to the axis to make the unit of measurement more clear. 
+Lastly I added a horizontal line representing the average cost/30g of protein that served as a reference line. I struggled a bit with this as it was difficult to control where the line's label would go. At first it was at the bottom of the line, conflicting with other bars and labels. 
 
+Thoughts on the critique process: I like the iterative nature 
+
+
+Here is my final product!
 <div class='tableauPlaceholder' id='viz1774972079948' style='position: relative'><noscript><a href='#'><img alt='&lt;Protein Per Dollar: Ranking Foods by Cost Efficiency &gt; ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProteinData&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ProteinData&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProteinData&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
 <script type='text/javascript'>
   var divElement = document.getElementById('viz1774972079948');
@@ -77,8 +76,12 @@ _Include and describe your final solution here. It's also a good idea to summari
 
 
 ## References
-_List any references you used here._
+“How Cost Effective Is Your High Protein Diet.” The Bodybuilding Dietitians, https://www.thebodybuildingdietitians.com/blog/how-cost-effective-is-your-high-protein-diet
+
+Article: https://lifehacker.com/the-cheapest-ways-to-get-your-protein-right-now
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+I used AI in the sketch process to see if it could come up with a better visualization than myself. I ended up just going with Excel as it did not produce a much better version of the original. 
+
+Additionally, I used AI to help with some of the tableau software commands (as this tool is still relatively new for me). 
 
