@@ -14,22 +14,28 @@ Here is the chart I chose for this critique with its corresponding article also 
 
 “How Cost Effective Is Your High Protein Diet.” The Bodybuilding Dietitians, https://www.thebodybuildingdietitians.com/blog/how-cost-effective-is-your-high-protein-diet
 
-https://lifehacker.com/the-cheapest-ways-to-get-your-protein-right-now
+Article: https://lifehacker.com/the-cheapest-ways-to-get-your-protein-right-now
 
 I chose this visualization because the topic interests me and I found the article very informative. Over the last few years I have made the concious decision to eat more protein, but quickly found that it would be a relatively expensive endeavor. Therefore, I am interested in what everyday food products are the most cost-effective way to get my daily protein intake. Additionally, I found the chart a bit cluttered and so I thought there were changes that could be made to improve its readability. 
 
 
 ## Step two: the critique
-_Don't forget to complete the Google Form found on the assignment page.  You can summarize your thoughts here._
+I really enjoyed the Stephen Few approach to critiquing visualizations; I found it focussed my eye on aspects of the graph I otherwise wouldn't have noticed. 
+
+Some things I like about the visualization: Something I liked about the graph was the use of pictures so that it was clear what specific product each data point represents. Additionally, I thought the title and axises were very clear. 
+
+Some things I didn't like about the visualization: Something that didn't work so well is that chicken breast was all the way to the right (the smallest bar) even though it represents the most cost-effective measure. At first glance, it being the smallest bar makes it seem like it is the least cost-effective. Also another critique is that there is no color differentiation amongst the bars so your eye isn't drawn instantly to one/a group of data point/s. Additionally, the amount of calories in these foods does not have anything to do with the cost-effectiveness of the product so it will likely distract the reader from the true purpose of the visualization. Instead of calling out the calorie amount I think it would be far more valuable to call out the cost per 30g of protein for each product, so that people can get an actual dollar amount, especially for the most cost-effective options like chicken breast and WPI.   
+
+Preliminary ideas of what to focus on in my redesign: I will focus on a way to emphasize the "small" nature of the most cost-effective food options, so that they aren't hidden by the opther data points. Also I want to call out specific cost data points so that the chart has a larger impact. Something that could be cool is to compare all of these foods to the average cost per 30g of protein and have line vertical line in a horizontal bar chart to diffentiate which foods are above and below average. 
 
 ## Step three: Sketch a solution
 
+I made my first redesign on paper and went through several iterations based on my intuition about which versions were the clearest and best told my story—specifically emphasizing the most cost-effective foods in terms of protein. I then transferred my design to an Excel file (linked below). My initial idea was to group foods into three categories: most cost-effective, average, and least cost-effective, and to color-code each group (as shown below with green, yellow, and red). I chose green for the most cost-effective foods to signal that these are the “best” options. I also decided on a horizontal bar chart so that viewers’ eyes are immediately drawn to the top, where the foods I want to highlight are placed. Similarly, I tried to use a faded out red color for the least cost-effective foods but I think it came out a little awkward and unappealing in the first go around. 
+
+<img width="733" height="487" alt="Screenshot 2026-04-01 at 10 44 05 AM" src="https://github.com/user-attachments/assets/c3dd21d6-51b9-4455-a2e7-dad096ef92e0" />
+
 ## Step four: Test the solution
-
-_Before you conduct your interviews, prepare a simple script.  Use this as a guide and as a way to take notes as you go forward. Come up with your own list of questions you want to ask for the selected visualization. Keep the questions broad so you can get the most value out of your feedback. Then, document answers to your questions here._
-
-Questions to ask (modify these for your own interviews): 
-
+For testing my solution 
 - Can you tell me what you think this is?
 
 - Can you describe to me what this is telling you?
