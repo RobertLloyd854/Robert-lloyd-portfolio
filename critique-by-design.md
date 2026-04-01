@@ -1,11 +1,6 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
-# Title
-Text here...
-
-_For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and you attempted to show or do different._
-
-_You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
+# Reimagining a Graph of the Cost-Effectiveness of Protein  
 
 ## Step one: the visualization
 Here is the chart I chose for this critique with its corresponding article also linked below 
@@ -60,7 +55,7 @@ Design changes implemented: After consulting with my class mates I implemented t
 Next I added dollar amounts outside each bar and added dollar signs to the axis to make the unit of measurement more clear. 
 Lastly I added a horizontal line representing the average cost/30g of protein that served as a reference line. I struggled a bit with this as it was difficult to control where the line's label would go. At first it was at the bottom of the line, conflicting with other bars and labels. 
 
-Thoughts on the critique process: I like the iterative nature 
+Thoughts on the critique process: This process further cemented the importance of iteration in the data visualization process. Often your first attempt at portraying/reimagining data is not the best and requires feedback (both personal and from external sources) to make small improvements, until it is refined into a clear, effective, and meaningful visualization that communicates the intended insights accurately.
 
 
 Here is my final product!
