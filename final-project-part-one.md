@@ -11,6 +11,7 @@ Pennsylvania is at a crossroads in its energy future. The state has long been on
 
 This project will explore the skills gap between traditional energy occupations and growing green energy occupations in Pennsylvania, using occupational skills data to show where overlap exists and where targeted workforce development is needed. The intended audience is a Pennsylvania state policymaker responsible for economic development or workforce programming. The core argument is that by understanding the specific skills workers already have — and the specific skills they need — policymakers can direct funding toward training programs that efficiently transition displaced fossil fuel workers into green energy careers, rather than relying on broad, untargeted retraining efforts.
 
+
 Story Arc:
 The story follows a setup-tension-insight-resolution arc:
 
