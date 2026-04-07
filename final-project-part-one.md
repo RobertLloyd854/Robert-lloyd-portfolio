@@ -21,8 +21,9 @@ Tension — "But what about the workers?": The tone shifts as we examine the hum
 Insight — "The skills are closer than you think": This is the analytical heart of the project. Using O*NET occupational skills data, the presentation compares the skill profiles of common traditional energy jobs (e.g., petroleum pump operators, mining machine operators, power plant operators) with growing green energy jobs (e.g., solar photovoltaic installers, wind turbine technicians, energy auditors). The analysis reveals that many core competencies — mechanical aptitude, equipment maintenance, safety compliance, troubleshooting — overlap significantly. It also identifies the specific skill gaps that need to be bridged, such as electrical systems knowledge for solar or hydraulics for wind. The audience should feel a sense of possibility.
 
 Call to Action — "Invest in skills-based workforce transition": The story resolves with a concrete recommendation. Rather than funding generic retraining programs, Pennsylvania should invest in targeted, skills-based training that addresses the specific gaps identified in the analysis. Supporting evidence — such as research showing that skills-based organizations are significantly more effective at placing and retaining talent — reinforces the case. The presentation closes with specific recommendations for the types of training programs and certifications the state should prioritize based on the data.
-<img width="410" height="788" alt="Screenshot 2026-04-07 at 3 37 51 PM" src="https://github.com/user-attachments/assets/b7ebd8cf-443b-4a1e-b1a7-b803b4d8ebf6" />
 
+
+<img width="787" height="408" alt="Screenshot 2026-04-07 at 3 38 59 PM" src="https://github.com/user-attachments/assets/36419839-cb4a-431e-8f95-1dd91ebfb14f" />
 
 ## Initial sketches
 > Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
