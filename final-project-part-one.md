@@ -26,30 +26,31 @@ Call to Action — "Invest in skills-based workforce transition": The story reso
 <img width="787" height="408" alt="Screenshot 2026-04-07 at 3 38 59 PM" src="https://github.com/user-attachments/assets/36419839-cb4a-431e-8f95-1dd91ebfb14f" />
 
 ## Initial sketches
-> Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
+<img width="475" height="351" alt="Screenshot 2026-04-07 at 10 29 13 PM" src="https://github.com/user-attachments/assets/23bddc61-c7a6-4c03-b8d5-44ab365e72c7" />
 
-Text here...
+<img width="629" height="364" alt="Screenshot 2026-04-07 at 10 30 26 PM" src="https://github.com/user-attachments/assets/9a4324c9-09d7-4887-a184-1af31f0fa42a" />
+
+<img width="784" height="579" alt="Screenshot 2026-04-07 at 10 29 58 PM" src="https://github.com/user-attachments/assets/bcd7c5d4-828c-46a8-8332-71ea1ea7c215" />
+
 
 # The data
-> A couple of paragraphs that document your data source(s), and an explanation of how you plan on using your data. 
+O*NET Database (U.S. Department of Labor) — This is the core dataset for the project's skills analysis. ONET provides standardized ratings for skills, knowledge, abilities, and work activities across over 900 occupations. I will download the Skills, Knowledge, and Abilities files from the ONET 30.2 Database and filter to the specific traditional energy occupations (e.g., Petroleum Pump System Operators — SOC 51-8093, Continuous Mining Machine Operators — SOC 47-5041, Power Plant Operators — SOC 51-8013) and green energy occupations (e.g., Solar Photovoltaic Installers — SOC 47-2231, Wind Turbine Service Technicians — SOC 49-9081, Energy Auditors — SOC 47-4011). By comparing the importance and level ratings for each skill across these occupation pairs, I can quantify the overlap and identify the specific gaps that workforce training should target. The data is publicly available and downloadable under a Creative Commons license.
 
-Text here...
+O*NET Database Download: https://www.onetcenter.org/database.html
 
-> A link to the publicly-accessible datasets you plan on using, or a link to a copy of the data you've uploaded to your Github repository, Box account or other publicly-accessible location. Using a datasource that is already publicly accessible is highly encouraged.  If you anticipate using a data source other than something that would be publicly available please talk to me first. 
+U.S. Energy & Employment Report (USEER) — U.S. Department of Energy — The USEER provides state-level energy employment data broken down by sector (fuels, electric power generation, transmission/distribution/storage, energy efficiency, and motor vehicles). I will use the Pennsylvania state report and public data files to show employment trends across traditional and clean energy sectors, establishing the narrative that clean energy jobs are growing while fossil fuel jobs are declining. The 2025 report also includes wage data, which could strengthen the call to action by showing that green energy jobs offer competitive pay.
 
-| Name | URL | Description |
-|------|-----|-------------|
-|      |     |             |
-|      |     |             |
-|      |     |             |
+USEER Reports & Data: https://www.energy.gov/policy/us-energy-employment-jobs-report-useer
 
+Bureau of Labor Statistics — Occupational Employment and Wage Statistics (OEWS) — The BLS OEWS program provides Pennsylvania-specific employment counts and wages for approximately 830 occupations. I will use this data to ground the O*NET skills analysis in actual PA employment figures — showing not just what skills are needed, but how many workers are in affected occupations in the state. Pennsylvania also publishes its own OEWS data through the Center for Workforce Information & Analysis at multiple geographic levels (statewide, MSA, county), which will be useful for mapping affected communities.
+
+BLS OEWS State Data: https://www.bls.gov/oes/current/oessrcst.htm
+PA Occupational Wages: https://www.pa.gov/agencies/dli/resources/statistic-materials/products/occupational-wages
 # Method and medium
-> In a few sentences, you should document how you plan on completing your final project. 
-
-Text here...
+For this project I will use Shorthand as my presentation platform and tableau as the primary software for creating my data visualizations.
 
 ## References
 _List any references you used here._
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+I used AI to clean up my grammar and spelling in a few of the more text-heavy sections 
