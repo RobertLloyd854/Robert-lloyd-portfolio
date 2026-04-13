@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Powering Pennsylvania's Future — But Who's Left Behind?</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+--bg-dark:#0c1a0e;
+--bg-section:#f7f5f0;
+--bg-dark-section:#1a2e1e;
+--accent-green:#2d8a4e;
+--accent-orange:#c45d2c;
+--accent-amber:#d4960a;
+--text-light:#f0ede6;
+--text-dark:#1c1c1c;
+--text-muted:#6b7c6e;
+--serif:'Playfair Display',Georgia,serif;
+--sans:'Source Sans 3','Source Sans Pro',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--text-dark);background:var(--bg-dark);overflow-x:hidden}
+
+/* HERO */
+.hero{
+position:relative;height:100vh;display:flex;align-items:center;justify-content:center;
+background:linear-gradient(165deg,#0c1a0e 0%,#1a3322 40%,#0e2415 100%);
+overflow:hidden;
+}
+.hero::before{
+content:'';position:absolute;inset:0;
+background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(45,138,78,0.03) 3px,rgba(45,138,78,0.03) 4px);
+pointer-events:none;
+}
+.hero-content{
+position:relative;z-index:2;text-align:center;max-width:900px;padding:0 2rem;
+}
+.hero h1{
+font-family:var(--serif);font-size:clamp(2.4rem,6vw,4.5rem);
+color:var(--text-light);line-height:1.15;font-weight:700;
+letter-spacing:-0.02em;margin-bottom:1.5rem;
+}
+.hero h1 em{
+font-style:italic;color:var(--accent-green);
+}
+.hero .subtitle{
+font-size:clamp(1rem,2vw,1.3rem);color:var(--text-muted);
+font-weight:300;line-height:1.7;max-width:600px;margin:0 auto 3rem;
+}
+.scroll-cue{
+position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);
+color:var(--text-muted);font-size:0.8rem;letter-spacing:0.15em;
+text-transform:uppercase;animation:pulse 2s ease-in-out infinite;
+}
+.scroll-cue::after{
+content:'';display:block;width:1px;height:40px;
+background:var(--accent-green);margin:0.8rem auto 0;opacity:0.5;
+}
+@keyframes pulse{0%,100%{opacity:0.4}50%{opacity:1}}
+
+/* SECTION BASE */
+.story-section{
+min-height:100vh;padding:8rem 2rem;
+display:flex;align-items:center;justify-content:center;
+}
+.section-inner{
+max-width:900px;width:100%;
+}
+
+/* LIGHT SECTIONS */
+.light{background:var(--bg-section)}
+.light .section-label{color:var(--accent-green);border-color:var(--accent-green)}
+.light h2{color:var(--text-dark)}
+.light p{color:#3a3a3a}
+
+/* DARK SECTIONS */
+.dark{background:var(--bg-dark-section)}
+.dark .section-label{color:var(--accent-orange);border-color:var(--accent-orange)}
+.dark h2{color:var(--text-light)}
+.dark p{color:rgba(240,237,230,0.75)}
+
+/* TENSION (warm dark) */
+.tension{background:linear-gradient(170deg,#2a1a10 0%,#1e1008 100%)}
+.tension .section-label{color:var(--accent-orange);border-color:var(--accent-orange)}
+.tension h2{color:#f0ede6}
+.tension p{color:rgba(240,237,230,0.7)}
+
+/* CTA */
+.cta-section{background:linear-gradient(170deg,#0c1a0e 0%,#1a3322 100%)}
+.cta-section .section-label{color:var(--accent-green);border-color:var(--accent-green)}
+.cta-section h2{color:var(--text-light)}
+.cta-section p{color:rgba(240,237,230,0.75)}
+
+/* LABELS & TEXT */
+.section-label{
+font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;
+font-weight:600;padding-bottom:0.5rem;
+border-bottom:2px solid;display:inline-block;margin-bottom:2rem;
+}
+.section-inner h2{
+font-family:var(--serif);font-size:clamp(1.8rem,4vw,3rem);
+line-height:1.2;margin-bottom:1.5rem;font-weight:700;
+}
+.section-inner p{
+font-size:1.1rem;line-height:1.8;margin-bottom:1.5rem;font-weight:300;
+}
+.section-inner p strong{font-weight:600}
+
+/* VIZ PLACEHOLDERS */
+.viz-placeholder{
+border:2px dashed rgba(45,138,78,0.35);border-radius:12px;
+padding:3rem 2rem;margin:2.5rem 0;text-align:center;
+background:rgba(45,138,78,0.04);position:relative;min-height:320px;
+display:flex;flex-direction:column;align-items:center;justify-content:center;
+}
+.tension .viz-placeholder{
+border-color:rgba(196,93,44,0.35);background:rgba(196,93,44,0.04);
+}
+.cta-section .viz-placeholder{
+border-color:rgba(45,138,78,0.35);background:rgba(45,138,78,0.06);
+}
+.viz-placeholder .viz-icon{
+font-size:2.5rem;margin-bottom:1rem;opacity:0.6;
+}
+.viz-placeholder .viz-title{
+font-family:var(--serif);font-size:1.2rem;font-weight:700;
+margin-bottom:0.5rem;
+}
+.light .viz-placeholder .viz-title{color:var(--text-dark)}
+.dark .viz-placeholder .viz-title,
+.tension .viz-placeholder .viz-title,
+.cta-section .viz-placeholder .viz-title{color:var(--text-light)}
+
+.viz-placeholder .viz-desc{
+font-size:0.85rem;max-width:500px;line-height:1.6;
+}
+.light .viz-placeholder .viz-desc{color:var(--text-muted)}
+.dark .viz-placeholder .viz-desc,
+.tension .viz-placeholder .viz-desc,
+.cta-section .viz-placeholder .viz-desc{color:rgba(240,237,230,0.5)}
+
+.viz-placeholder .viz-source{
+font-size:0.7rem;margin-top:1rem;letter-spacing:0.05em;
+text-transform:uppercase;
+}
+.light .viz-placeholder .viz-source{color:rgba(0,0,0,0.3)}
+.dark .viz-placeholder .viz-source,
+.tension .viz-placeholder .viz-source,
+.cta-section .viz-placeholder .viz-source{color:rgba(255,255,255,0.25)}
+
+/* BIG STAT */
+.big-stat{
+display:flex;gap:2rem;margin:2.5rem 0;flex-wrap:wrap;
+justify-content:center;
+}
+.stat-card{
+text-align:center;padding:2rem 1.5rem;flex:1;min-width:180px;
+border-radius:12px;
+}
+.light .stat-card{background:rgba(45,138,78,0.06);border:1px solid rgba(45,138,78,0.12)}
+.dark .stat-card,.cta-section .stat-card{background:rgba(45,138,78,0.1);border:1px solid rgba(45,138,78,0.2)}
+.tension .stat-card{background:rgba(196,93,44,0.08);border:1px solid rgba(196,93,44,0.15)}
+.stat-number{
+font-family:var(--serif);font-size:2.8rem;font-weight:700;
+line-height:1;margin-bottom:0.5rem;
+}
+.light .stat-number{color:var(--accent-green)}
+.tension .stat-number{color:var(--accent-orange)}
+.dark .stat-number,.cta-section .stat-number{color:var(--accent-green)}
+.stat-label{
+font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;
+font-weight:600;
+}
+.light .stat-label{color:var(--text-muted)}
+.dark .stat-label,.tension .stat-label,.cta-section .stat-label{color:rgba(240,237,230,0.5)}
+
+/* DIVIDER */
+.section-divider{
+width:60px;height:3px;margin:3rem 0;border-radius:2px;
+}
+.light .section-divider{background:var(--accent-green)}
+.dark .section-divider,.cta-section .section-divider{background:var(--accent-green)}
+.tension .section-divider{background:var(--accent-orange)}
+
+/* FOOTER */
+.footer{
+background:var(--bg-dark);padding:4rem 2rem;text-align:center;
+border-top:1px solid rgba(45,138,78,0.15);
+}
+.footer p{color:var(--text-muted);font-size:0.85rem;line-height:1.8}
+.footer a{color:var(--accent-green);text-decoration:none}
+.footer a:hover{text-decoration:underline}
+
+/* SCROLL ANIMATION */
+.reveal{opacity:0;transform:translateY(40px);transition:opacity 0.8s ease,transform 0.8s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+
+<!-- ====== HERO ====== -->
+<section class="hero">
+<div class="hero-content reveal">
+<h1>Powering Pennsylvania's Future —<br>But <em>Who's Left Behind?</em></h1>
+<p class="subtitle">As the commonwealth transitions from fossil fuels to clean energy, thousands of skilled workers risk being stranded. A data-driven case for skills-based workforce transition.</p>
+</div>
+<div class="scroll-cue">Scroll to explore</div>
+</section>
+
+<!-- ====== SECTION 1: SETUP ====== -->
+<section class="story-section light">
+<div class="section-inner">
+<div class="reveal">
+<span class="section-label">Section 1 — The shift</span>
+<h2>Pennsylvania is going green</h2>
+<p>Even amid federal policy headwinds, Pennsylvania has continued its push toward clean energy. The state's clean energy workforce grew to <strong>104,499 workers</strong> by the end of 2024 — adding 3,722 jobs in a single year, growing more than five times faster than the rest of the state's economy.</p>
+</div>
+
+<div class="big-stat reveal">
+<div class="stat-card">
+<div class="stat-number">104K</div>
+<div class="stat-label">Clean energy workers</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">3.7%</div>
+<div class="stat-label">Job growth rate</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">5th</div>
+<div class="stat-label">In U.S. for jobs added</div>
+</div>
+</div>
+
+<div class="viz-placeholder reveal">
+<div class="viz-icon">&#9636;</div>
+<div class="viz-title">PA energy employment: fossil fuel vs. clean energy share (2017–2024)</div>
+<div class="viz-desc">Stacked bar chart showing the changing composition of Pennsylvania's energy workforce. Clean energy share grows from ~34% to ~42%.</div>
+<div class="viz-source">Dataset: USEER Public Data — energy.gov/policy/us-energy-employment-jobs-report-useer</div>
+</div>
+
+<div class="reveal">
+<p>The energy efficiency sector alone supports over 76,000 jobs — more than two-thirds of the state's clean energy workforce. Solar, wind, and grid storage are growing fast. The transition is real.</p>
+</div>
+</div>
+</section>
+
+<!-- ====== SECTION 2: TENSION ====== -->
+<section class="story-section tension">
+<div class="section-inner">
+<div class="reveal">
+<span class="section-label">Section 2 — The problem</span>
+<h2>But what about the workers?</h2>
+<p>Pennsylvania's fossil fuel sector still employs tens of thousands of workers. Coal mines are closing. Natural gas employment is plateauing. Power plants are shutting down. And the state's ambitious climate plans say remarkably little about how these workers will make the leap.</p>
+</div>
+
+<div class="big-stat reveal">
+<div class="stat-card">
+<div class="stat-number">48,405</div>
+<div class="stat-label">Fuels sector workers (2022)</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">50%</div>
+<div class="stat-label">Employers reporting hiring difficulty</div>
+</div>
+</div>
+
+<div class="viz-placeholder reveal">
+<div class="viz-icon">&#9888;</div>
+<div class="viz-title">PA workers in declining fossil fuel roles vs. green energy job openings</div>
+<div class="viz-desc">Butterfly chart comparing the number of workers in at-risk traditional energy occupations (left) with projected annual openings in matched green energy occupations (right).</div>
+<div class="viz-source">Dataset: BLS OEWS May 2024 (PA state) + BLS Employment Projections 2024–2034 — bls.gov/oes/tables.htm</div>
+</div>
+
+<div class="reveal">
+<div class="section-divider"></div>
+<p>These aren't just statistics. They represent electricians, plant operators, pump technicians, and mining machine operators — people with deep technical skills who built Pennsylvania's energy infrastructure. They deserve a bridge to the next chapter, not a cliff.</p>
+</div>
+</div>
+</section>
+
+<!-- ====== SECTION 3: INSIGHT (CORE) ====== -->
+<section class="story-section light">
+<div class="section-inner">
+<div class="reveal">
+<span class="section-label">Section 3 — The insight</span>
+<h2>The skills are closer than you think</h2>
+<p>Here's what most workforce plans miss: traditional energy workers already possess the majority of skills that green energy employers need. Using O*NET occupational data, we can compare the skill profiles of fossil fuel jobs with their green energy counterparts — and the overlap is striking.</p>
+</div>
+
+<div class="viz-placeholder reveal">
+<div class="viz-icon">&#9673;</div>
+<div class="viz-title">Knowledge domain overlap: traditional → green energy occupation pairs</div>
+<div class="viz-desc">Heatmap matrix showing O*NET knowledge importance ratings across 10 domains for 4 occupation transition pairs. Green cells indicate high overlap, amber indicates moderate gap, red indicates significant gap requiring training.</div>
+<div class="viz-source">Dataset: O*NET 30.2 Database → Knowledge.txt — onetcenter.org/database.html</div>
+</div>
+
+<div class="reveal">
+<p>A power plant operator and a wind turbine technician share deep competency in equipment maintenance, safety compliance, mechanical troubleshooting, and operations monitoring. The gaps are specific and bridgeable — primarily in electrical systems, renewable technology, and updated building codes.</p>
+</div>
+
+<div class="viz-placeholder reveal">
+<div class="viz-icon">&#9654;</div>
+<div class="viz-title">Skills transferability score by occupation transition pair</div>
+<div class="viz-desc">Horizontal bar chart showing a custom composite metric: the percentage of skills rated "important" in the green job that the traditional worker already possesses. Calculated from O*NET Skills.txt importance ratings (threshold ≥ 3.0).</div>
+<div class="viz-source">Dataset: O*NET 30.2 Database → Skills.txt — onetcenter.org/database.html</div>
+</div>
+
+<div class="reveal">
+<div class="section-divider"></div>
+<p>The takeaway: <strong>most traditional energy workers already possess 50–80% of the skills green energy employers need.</strong> The remaining gap is specific, measurable, and addressable through targeted training — not a four-year degree.</p>
+</div>
+</div>
+</section>
+
+<!-- ====== SECTION 4: TRAINING INVESTMENT ====== -->
+<section class="story-section dark">
+<div class="section-inner">
+<div class="reveal">
+<span class="section-label">Section 4 — The bridge</span>
+<h2>What does bridging the gap actually take?</h2>
+<p>If the skills overlap is real, the next question is practical: how much training does it take? By mapping the specific gaps identified in the O*NET analysis to known training program lengths, we can estimate the investment required for each transition pathway.</p>
+</div>
+
+<div class="viz-placeholder reveal">
+<div class="viz-icon">&#9201;</div>
+<div class="viz-title">Estimated training weeks to bridge skill gaps by transition pair</div>
+<div class="viz-desc">Stacked bar chart breaking down training weeks by category — electrical/wiring, technology-specific, codes & certification, and building science. Total ranges from 10–28 weeks depending on the transition pair.</div>
+<div class="viz-source">Datasets: O*NET 30.2 Skills.txt + Knowledge.txt (gap size) + BLS OOH training requirements — bls.gov/ooh</div>
+</div>
+
+<div class="reveal">
+<p>The range is <strong>10 to 28 weeks</strong> — the length of a certificate program or an intensive bootcamp. Not years. Not a new degree. Targeted, skills-based training that builds on what workers already know.</p>
+<p>This is the kind of program that state workforce development funding was designed for.</p>
+</div>
+</div>
+</section>
+
+<!-- ====== SECTION 5: CALL TO ACTION ====== -->
+<section class="story-section cta-section">
+<div class="section-inner">
+<div class="reveal">
+<span class="section-label">Section 5 — The call to action</span>
+<h2>Invest in skills-based workforce transition</h2>
+<p>The data tells a clear story: Pennsylvania's traditional energy workers have transferable skills, green energy employers have open jobs, and the training gap is bridgeable. What's missing is targeted policy action.</p>
+</div>
+
+<div class="big-stat reveal">
+<div class="stat-card">
+<div class="stat-number">107%</div>
+<div class="stat-label">More likely to place talent effectively (skills-based orgs)</div>
+</div>
+<div class="stat-card">
+<div class="stat-number">98%</div>
+<div class="stat-label">More likely to retain high performers</div>
+</div>
+</div>
+
+<div class="reveal">
+<div class="section-divider"></div>
+<p>Pennsylvania policymakers should direct workforce development funding toward <strong>short-term, skills-based certificate programs</strong> that target the specific gaps identified in this analysis — electrical systems for solar, hydraulics for wind, building science for energy auditing, and updated code compliance across the board.</p>
+<p>The workers are ready. The jobs are waiting. The bridge just needs to be built.</p>
+</div>
+</div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+<p><strong>Sources & Data</strong></p>
+<p>
+O*NET 30.2 Database — <a href="https://www.onetcenter.org/database.html">onetcenter.org</a><br>
+U.S. Energy & Employment Report (USEER) — <a href="https://www.energy.gov/policy/us-energy-employment-jobs-report-useer">energy.gov</a><br>
+BLS Occupational Employment & Wage Statistics — <a href="https://www.bls.gov/oes/tables.htm">bls.gov/oes</a><br>
+E2 Clean Jobs Pennsylvania 2025 — <a href="https://e2.org/reports/clean-jobs-pennsylvania-2025/">e2.org</a><br>
+Deloitte Skills-Based Organization Research
+</p>
+<p style="margin-top:1.5rem;font-size:0.75rem;opacity:0.5;">
+Telling Stories with Data — Carnegie Mellon University — Robert Lloyd — Spring 2026
+</p>
+</footer>
+
+<script>
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.15 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+
+</body>
+</html>
