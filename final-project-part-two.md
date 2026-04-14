@@ -32,10 +32,6 @@ The story is meant to reach policymkers who may not know much about interconnect
 
 
 ## Interview findings
-> Detail the findings from your interviews.  Do not include PII.  Capture specific insights where possible.
-
-Text here!
-
 
 Questions 1: What do you think this presentation is about?	Responses: It seems to be about clean energy projects getting stuck because the grid cannot connect them fast enough.	The presentation appears to focus on the interconnection backlog and why it is slowing down new energy projects.	It looks like a story about a grid problem that is affecting renewable energy growth.
 
