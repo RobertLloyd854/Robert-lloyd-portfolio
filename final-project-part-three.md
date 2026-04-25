@@ -27,13 +27,8 @@ My user interviews helped me figure out where the story was working and where it
 Finally, the interview feedback pushed me to make the call to action more concrete and implementable. General recommendations like "speed up the queue" are useless to a regulator — they need specifics they can turn into rulemaking. So I sharpened the two core recommendations into actionable reforms: defined study timelines paired with a completion guarantee that produces one of three binding outcomes, and a filter that removes speculative projects from the queue so serious projects can move faster. These are concrete enough that a FERC staffer reading the presentation could see a clear path to translating them into policy.
 
 
-## References
-> **You should have already included detailed references on your Shorthand story** - if so, you do not need to list them twice, unless you used additional references for specific to your writeup. Use this section to capture any additional special notes or information necessary. If there is additional information for your shorthand readers that you've placed on this page, link from Shorthand to this page. Make sure to double-check that you aren't using copyright material and that you have added / updated any citations or other content that you used to create your data story.  Make sure you have cited external sources correctly.
-
 ## AI acknowledgements
 AI helped walking through some of the shorthand process (how to do certain processes) as well as in the tableau process. It was also used to prove read my presenation and make sure there weren't any grammer, spelling, or punctuation issues. 
 
-# Final thoughts
-> You can summarize any final thoughts / reflections that don't fit well in the previous sections here.  How did it go?  What did you run out of time for, or wish you had a chance to revisit?  What were you most excited about?  Include any final reflections as you think they might help us understand your process.  If you already included such reflections elsewhere, you can delete this section. 
 
 
