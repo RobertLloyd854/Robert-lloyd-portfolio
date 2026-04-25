@@ -1,36 +1,33 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
 
 # The final data story
-> Include a link to your final data story on Shorthand, Esri StoryMaps, etc. here. 
+(https://carnegiemellon.shorthandstories.com/untitled-story/index.html) 
 
-Text here!
+
 
 # Changes made since Part II
-> Include few paragraphs that reflects on changes you made since the completion of Part II. 
+One of the design decisions I’m most deliberate about is the repeating pattern of three big-number stat callouts in each section — 956/890/271 GW for the scale, then ~5 yrs/95%/70%+ for the bottleneck, then 8+ yrs/211.5 GW/$14.7B for PJM. This builds a visual rhythm across the story and gives readers anchor points they can scan quickly. For an audience like FERC who care so deeply about the data, this matters — they can pull the top-line facts without reading every word.
+Color was the decision I thought about most. I made the bottleneck section red, which is a clear departure from the rest of the presentation. That shift was intentional, I wanted the reader's eye to register the change in tone before they even read the words. This is the section where the story turns from "here's what's waiting to connect" to "here's why nothing is moving," and I wanted the design to do some of that emotional work. My user interviews helped me nail down what color to use to make sure it popped the way I wanted it to.
+For the Tableau visualizations, I tried to keep each chart focused on a single takeaway. At first I was trying to do too much and that stressed me out, and therefore I can only assume it would have stressed out the audience! The technology mix chart uses color to show at a glance that the queue is overwhelmingly clean energy, the wait-times chart is a simple trend that makes "this is getting worse" fairly clear, and the regional capacity chart is where I draw the national comparison that ties PJM back to the broader argument. One change I made after Part II, directly from interview feedback, was to rewrite the chart titles so they state the takeaway more plainly instead of just describing the axes. Also I had to make sure that the slide title and chart title differed in messaging, which I feel I did. My interviewees mentioned that some of the charts felt dense, so punchier titles and a short framing sentence helped in my opinion. Another change I made after part II was to add quick call outs in the second and third visualizations. I thought this allows me to further guide the viewers eye to exactly what I wanted to say with the graphs.
+Looking at what stands out to me after going through this process, the biggest lesson is how much design carries argument. Early on, I thought the persuasiveness of the story would come from the data itself, if the numbers were big enough and the sources strong enough, the case would make itself. Working through iterations showed me that wasn't true. The same data can feel routine or urgent depending on how it's framed or paced. 
+Beyond the design itself, a few other changes shaped the final version. After Part II, I tightened the PJM-to-national transition so the argument more explicitly frames PJM as a symptom rather than the whole problem. I also sharpened the call to action into two specific, implementable reforms rather than a general plea to "speed up the queue," which makes the story end on something a FERC staffer could actually translate into rulemaking. And I went back and added citations under individual statistics, not just under the charts, because one interviewee pointed out that uncited numbers in the body text weakened the credibility of an otherwise well-sourced presentation.
 
-Text here!
+
 
 ## The audience
-> Talk about who you identified as the audience for your final data story.  Include any other information you've used that helped you narrow the focus (e.g. insights from your interviews, personas, etc.).  Note any specific adjustments you made to your final project to make it work for your audience.
+For my final data story, I identified the Federal Energy Regulatory Commission (FERC) as my primary audience. This choice came directly from how my call to action evolved. My recommendations — strict timelines for interconnection study completion, a "completion guarantee" requirement, and the removal of speculative projects from the queue — are all reforms that sit squarely within FERC's regulatory authority. I knew through my research process about these queues that making state-level policymakers the audience didn't make sense because the levers that actually matter here are federal. FERC is the body that can mandate changes to how RTOs and ISOs run their interconnection processes, so the story needed to be built for the people who could actually act on it. Additionally, FERC has already implemented some regulations to speed up the interconnection process. This helped confirm my hypothesis that FERC is the party that has the power to make true change, and therefore must be the audience for my presentation. 
+Narrowing to FERC also shaped the tone and depth of the presentation. FERC staff and commissioners are technically sophisticated, meaning they don't need a substantial primer on what an RTO is or why interconnection matters. At the same time, my story isn't a technical filing, rather it's a persuasive argument about why the current process is broken and why reform is urgent. That meant I had to strike a balance between assuming baseline knowledge and still telling a clear, compelling narrative. I leaned on PJM as the central case study because it's a region FERC is already paying close attention to, especially after the Shapiro complaint in December 2024. In my opinion, anchoring the story in a case FERC has direct familiarity with made the broader national argument land harder.
+My user interviews helped me figure out where the story was working and where it wasn't for a FERC audience. One interviewee pointed out that the transition from PJM back to a national augment wasn't explicit enough. This was very helpful because, in my opinion, failing to emphasize the “national scale: would be a bigger deal for a FERC audience than for a general one, especially since FERC is a national organization. For that reason I added my third graph (the one highlighting 4 regions with longer interconnection queues than PJM) write after the PJM/specific Josh Shapiro timeline, in order to clearly reconnect the story with FERC’s federal interests. 
+Finally, the interview feedback pushed me to make the call to action more concrete and implementable. General recommendations like "speed up the queue" are useless to a regulator — they need specifics they can turn into rulemaking. So I sharpened the two core recommendations into actionable reforms: defined study timelines paired with a completion guarantee that produces one of three binding outcomes, and a filter that removes speculative projects from the queue so serious projects can move faster. These are concrete enough that a FERC staffer reading the presentation could see a clear path to translating them into policy.
 
-Text here!
-
-## Final design decisions
-> You can specifically break out your design decisions here, or include it under *Changes made since Part II* and delete this section. Talk about the design decisions you had to make along the way, and reflect on anything in particular that stands out to you that you learned working through the process.  Include any other information that helps round out your data story. 
-
-Text here!
 
 ## References
 > **You should have already included detailed references on your Shorthand story** - if so, you do not need to list them twice, unless you used additional references for specific to your writeup. Use this section to capture any additional special notes or information necessary. If there is additional information for your shorthand readers that you've placed on this page, link from Shorthand to this page. Make sure to double-check that you aren't using copyright material and that you have added / updated any citations or other content that you used to create your data story.  Make sure you have cited external sources correctly.
 
 ## AI acknowledgements
-> If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here.
-
-Text here!
+AI helped walking through some of the shorthand process (how to do certain processes) as well as in the tableau process. It was also used to prove read my presenation and make sure there weren't any grammer, spelling, or punctuation issues. 
 
 # Final thoughts
 > You can summarize any final thoughts / reflections that don't fit well in the previous sections here.  How did it go?  What did you run out of time for, or wish you had a chance to revisit?  What were you most excited about?  Include any final reflections as you think they might help us understand your process.  If you already included such reflections elsewhere, you can delete this section. 
-
-Text here!
 
 
